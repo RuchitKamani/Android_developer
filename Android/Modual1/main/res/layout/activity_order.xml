@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".order"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    >
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🍕    $50   pizaa"
+        android:layout_marginTop="40sp"
+        android:textSize="25sp"
+        android:textColor="#ff690000"
+        />
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🍔    $30   Burger"
+        android:textColor="#ff690000"
+        android:textSize="25sp"
+
+        />
+    <CheckBox
+        android:id="@+id/ch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🍷    $20   cocacola"
+        android:textSize="25sp"
+        android:textColor="#ff690000"
+
+        />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:src="@drawable/order"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        />
+
+</LinearLayout>
