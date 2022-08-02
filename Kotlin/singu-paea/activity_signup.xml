@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00A5FF"
+    android:gravity="center"
+    tools:context=".SignandSplash.signup">
+
+
+                 <!--android:background="@drawable/background"-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/applogo"/>
+
+    </LinearLayout>
+
+
+
+                             <!--.....form detail......-->
+
+
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/namecontainer"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:boxBackgroundColor="#E5E8ED"
+                app:boxStrokeColor="#0025F4"
+                app:boxStrokeWidthFocused="0dp"
+                app:helperText="Name"
+                app:helperTextTextColor="#FF0000">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Full Name"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <com.hbb20.CountryCodePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:ccp_countryPreference="IN,US,ID,NZ"
+                    app:ccp_defaultNameCode="US"
+                    app:ccp_showFlag="true"
+                    app:ccp_showNameCode="false" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/mobilecontainer"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:boxBackgroundColor="#E5E8ED"
+                    app:boxStrokeColor="#0025F4"
+                    app:boxStrokeWidthFocused="0dp"
+                    app:helperText="Mobile Number"
+                    app:helperTextTextColor="#FF0000">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Mobile Number"
+                        android:inputType=""
+                        android:singleLine="true"
+                        android:textColor="#FD0202"
+                        android:textStyle="bold">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/loginedittextdesign"
+                    android:padding="3dp"
+                    android:text="generate \n otp"
+                    android:textColor="#000000"
+                    android:textSize="15dp">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:boxBackgroundColor="#E5E8ED"
+                    app:boxStrokeColor="#0025F4"
+                    app:boxStrokeWidthFocused="0dp"
+                    app:helperText="OTP"
+                    app:helperTextTextColor="#FF0000">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter 6 Digit OTP "
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:textColor="#FD0202"
+                        android:textStyle="bold">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="gender :-"
+                        android:textColor="@color/black"
+                        android:textSize="25sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="MALE" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Female" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailcontainersignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:boxStrokeColor="#0025F4"
+                app:boxStrokeWidthFocused="0dp"
+                app:helperText="Email"
+                app:helperTextTextColor="#FF0000"
+                app:boxBackgroundColor="#E5E8ED"
+                android:layout_marginTop="15dp">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailidsignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Email id"
+                    android:singleLine="true"
+                    android:textColor="#FD0202"
+                    android:textStyle="bold"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordcontainer"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:boxBackgroundColor="#E5E8ED"
+                app:boxStrokeColor="#0025F4"
+                app:boxStrokeWidthFocused="0dp"
+                app:helperText="Password"
+                app:helperTextTextColor="#FF0000">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Password"
+                    android:inputType="numberPassword"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textStyle="bold">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:boxBackgroundColor="#E5E8ED"
+                app:boxStrokeColor="#0025F4"
+                app:boxStrokeWidthFocused="0dp"
+                app:helperText="Password"
+                app:helperTextTextColor="#FF0000">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Conform Password"
+                    android:inputType="numberPassword"
+                    android:singleLine="true"
+                    android:textColor="#FD0202"
+                    android:textStyle="bold">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/singup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/loginbutten"
+                android:text="SINGUP"
+                android:textColor="#000000"
+                android:textSize="20dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gologinpage"
+                android:text="Go Login page"
+                android:textColor="#FF1744"
+                android:textSize="15dp"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+
+        </ScrollView>
+
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+</LinearLayout>
+
+
