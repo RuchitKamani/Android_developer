@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">আমি টেকনো পিক</string>
+    <string name="changelanguage">ভাষা পরিবর্তন করুন</string>
+    <string name="home">বাড়ি</string>
+    <string name="biodata">বায়োডাটা তৈরি করুন  </string>
+    <string name="setting">স্থাপন</string>
+    <string name="language">ভাষা নির্বাচন কর</string>
+    <string name="contact">যোগাযোগ করুন</string>
+    <string name="share">বন্ধুদের আমন্ত্রণ জানান</string>
+    <string name="feedback">প্রতিক্রিয়া/পরামর্শ</string>
+    <string name="help">সাহায্য</string>
+    <string name="homebottom">বাড়ি</string>
+    <string name="settingbottom">স্থাপন</string>
+</resources>

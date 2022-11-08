@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">आई टेक का एक पैकेट</string>
+    <string name="changelanguage">भाषा बदलो</string>
+    <string name="home">होम</string>
+    <string name="biodata">एक रिज्यूमे बनाएं</string>
+    <string name="setting">सेटिंग</string>
+    <string name="language">भाषा का चयन करें</string>
+    <string name="contact">संपर्क करें</string>
+    <string name="share">मित्रों को आमंत्रित करें</string>
+    <string name="feedback">प्रतिपुष्टि/सुझाव</string>
+    <string name="help">मदद </string>
+    <string name="homebottom">होम</string>
+    <string name="settingbottom">सेटिंग</string>
+</resources>

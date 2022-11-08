@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">I_techno_peak</string>
+    <string name="changelanguage">Change Language</string>
+    <string name="home">home</string>
+    <string name="biodata">Create BioData</string>
+    <string name="setting">Setting</string>
+    <string name="language">Select Language</string>
+    <string name="contact">Contact Us</string>
+    <string name="share">Invite Friends</string>
+    <string name="feedback">Feedback/Suggestion</string>
+    <string name="help">Help</string>
+    <string name="homebottom">Home</string>
+    <string name="settingbottom">Setting</string>
+</resources>

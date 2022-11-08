@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">నేను టెక్నో పీక్</string>
+    <string name="changelanguage">భాష మార్చు</string>
+    <string name="home">భాష మార్చు</string>
+    <string name="biodata">బయోడేటాను సృష్టించండి</string>
+    <string name="setting">అమరిక</string>
+    <string name="language">భాషను ఎంచుకోండి</string>
+    <string name="contact">మమ్మల్ని సంప్రదించండి</string>
+    <string name="share">స్నేహితులను ఆహ్వానించండి</string>
+    <string name="feedback">అభిప్రాయం/సూచన</string>
+    <string name="help">సహాయం</string>
+    <string name="homebottom">భాష మార్చు</string>
+    <string name="settingbottom">అమరిక</string>
+</resources>

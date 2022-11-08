@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">આઈ ટેકનો પેક</string>
+    <string name="changelanguage">ભાષા બદલો</string>
+    <string name="home">હોમ</string>
+    <string name="biodata">બાયોડેટા બનાવો</string>
+    <string name="setting">સેટિંગ</string>
+    <string name="language">ભાષા પસંદ કરો</string>
+    <string name="contact">અમારો સંપર્ક કરો</string>
+    <string name="share">મિત્રોને આમંત્રિત કરો</string>
+    <string name="feedback">પ્રતિસાદ/સૂચન</string>
+    <string name="help">હેલ્પ</string>
+    <string name="homebottom">હોમ</string>
+    <string name="settingbottom">સેટિંગ</string>
+</resources>

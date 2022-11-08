@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/languageradius"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/changelanguage"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_baseline_close_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/eng."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="English"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:background="@color/languageline" />
+
+        <TextView
+            android:id="@+id/guj."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gujarati"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:background="@color/languageline" />
+
+        <TextView
+            android:id="@+id/hin."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hindi"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:background="@color/languageline" />
+
+        <TextView
+            android:id="@+id/marathi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/marathi"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:background="@color/languageline" />
+
+        <TextView
+            android:id="@+id/bangali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Bengali"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:background="@color/languageline" />
+
+        <TextView
+            android:id="@+id/tamil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Tamil"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:background="@color/languageline" />
+
+        <TextView
+            android:id="@+id/telugu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Telugu"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:background="@color/languageline" />
+
+        <TextView
+            android:id="@+id/arabic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/arabic"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:background="@color/languageline" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

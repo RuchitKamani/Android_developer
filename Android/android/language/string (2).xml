@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मी टेक्नो पीक</string>
+    <string name="changelanguage">भाषा बदला</string>
+    <string name="home">मुख्यपृष्ठ</string>
+    <string name="biodata">बायोडेटा तयार करा  </string>
+    <string name="setting">सेटिंग</string>
+    <string name="language">भाषा निवडा</string>
+    <string name="contact">आमच्याशी संपर्क साधा</string>
+    <string name="share">मित्रांना आमंत्रित करा</string>
+    <string name="feedback">अभिप्राय/सूचना</string>
+    <string name="help">मदत करा</string>
+    <string name="homebottom">मुख्यपृष्ठ</string>
+    <string name="settingbottom">सेटिंग</string>
+</resources>

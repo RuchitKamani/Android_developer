@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أنا تكنو الذروة</string>
+    <string name="changelanguage">تغيير اللغة</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="biodata">إنشاء البيانات الحيوية</string>
+    <string name="setting">ضبط</string>
+    <string name="language">اختار اللغة</string>
+    <string name="contact">اتصل بنا</string>
+    <string name="share">ادعو أصدقاء</string>
+    <string name="feedback">ملاحظات / اقتراح</string>
+    <string name="help">مساعدة</string>
+    <string name="homebottom">الصفحة الرئيسية</string>
+    <string name="settingbottom">ضبط</string>
+</resources>

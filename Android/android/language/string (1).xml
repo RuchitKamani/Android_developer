@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <string name="app_name">நான் டெக்னோ பீக்</string>
+        <string name="changelanguage">மொழியை மாற்றவும்</string>
+        <string name="home">வீடு</string>
+        <string name="biodata">பயோடேட்டாவை உருவாக்கவும்</string>
+        <string name="setting">அமைத்தல்</string>
+        <string name="language">மொழியை தேர்ந்தெடுங்கள்</string>
+        <string name="contact">எங்களை தொடர்பு கொள்ள</string>
+        <string name="share">நண்பர்களை அழைக்க</string>
+        <string name="feedback">கருத்து/பரிந்துரை</string>
+        <string name="help">உதவி</string>
+    <string name="homebottom">வீடு</string>
+    <string name="settingbottom">அமைத்தல்</string>
+    </resources>
